@@ -12,7 +12,7 @@ class Program
 		var words = new Dictionary<string, int>(StringComparer.CurrentCultureIgnoreCase);
 		var FreqWords = new List<FreqWord>();
 
-		string path = "Text1.txt";
+		string path = @"..\..\..\..\Text1.txt";
 		words = GetWordFrequency(path);
 
 		foreach (var word in words)
